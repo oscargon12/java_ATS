@@ -18,7 +18,7 @@ public class _2VariablesDataTypes {
 
         // CONSTANTES
         final int fixedNum = 10; // las constantes se definen con el prefijo (final) antes del tipo de variable
-        // fixedNum = 15; sería error
+        // fixedNum = 15; sería error, ya que no se puede cambiar
 
         System.out.println("Numero entero pequeño " + enteroXs);
         System.out.println("Numero entero " + entero);
