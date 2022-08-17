@@ -21,7 +21,7 @@ public class _13Exercise {
                 System.out.println(unitKilogram + " kilos " + " son " + (unitKilogram / 0.01) + " decagramos");
                 break;
             case 4:
-                System.out.println(unitKilogram + " kilos " + " son " + (unitKilogram / 1000) + " gramos");
+                System.out.println(unitKilogram + " kilos " + " son " + (unitKilogram / 0.001) + " gramos");
                 break;
             default:
                 System.out.println("No ingresaste una opción valida");
@@ -31,9 +31,9 @@ public class _13Exercise {
 
     public static void main(String[] args) {
         System.out.println("Selecciona la unidad a la que quieres convertir");
+        System.out.println(" 1. Tonelada \n 2. Hectogramo \n 3. Decagramo \n 4. Gramo");
         int option = Integer.parseInt(sc.nextLine());
 
-        System.out.println(" 1. Tonelada \n 2. Hectogramo \n 3. Decagramo \n 4. Gramo");
         System.out.println("Ingresa el peso en kilogramos");
         double unitKilogram = Double.parseDouble(sc.nextLine());
 
