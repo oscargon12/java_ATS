@@ -1,3 +1,5 @@
+package excercises;
+
 import java.util.Scanner;
 
 //Pedir tres numeros y ordenarlos de mayor a menor

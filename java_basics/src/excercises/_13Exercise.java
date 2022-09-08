@@ -1,3 +1,4 @@
+package excercises;
 //programa que pase de Kg a otra unidad de masa, mostrar menú con opciones
 
 import java.util.Scanner;

@@ -1,3 +1,5 @@
+package excercises;
+
 import java.util.Scanner;
 
 //Algoritmo que tome dos numeros y diga si ambos son pares o impares

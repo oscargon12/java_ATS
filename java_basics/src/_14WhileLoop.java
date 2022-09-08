@@ -2,6 +2,8 @@ public class _14WhileLoop {
     public static void main(String[] args) {
         int i = 1;
 
+        // El while valida la condicion, antes de ejecutar el codigo, a diferencia del
+        // do while
         System.out.println("Incremento");
         while (i <= 10) {
             System.out.println(i);

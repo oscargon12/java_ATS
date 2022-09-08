@@ -1,3 +1,4 @@
+package excercises;
 
 //Comprobar si un caracter ingresado es mayus o minus
 import java.util.Scanner;
